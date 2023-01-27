@@ -37,6 +37,7 @@ nav {
 }
 
 .card--main {
+    position: relative;
     width: 175px;
     /* display: flex;
     flex-direction: column; */
@@ -57,5 +58,15 @@ nav {
     color: #918E9B;
 }
 .card--bold {
+    font-weight: bold;
+}
+
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
     font-weight: bold;
 }
